@@ -1,4 +1,4 @@
-# claude-skills
+# lkohlhepp-claude-plugins
 
 Claude Code plugins by Luca Kohlhepp, listed in the Mayflower marketplace
 (`mayflower/agent-plugins`).
@@ -18,3 +18,8 @@ claude plugin install reasoning-skills@agent-plugins
 
 Each plugin is a directory with `.claude-plugin/plugin.json` and its skills under
 `skills/<name>/SKILL.md`.
+
+## Use
+
+All rights reserved. Mayflower staff may use these plugins internally; any other
+use, modification or redistribution needs the author's permission.
