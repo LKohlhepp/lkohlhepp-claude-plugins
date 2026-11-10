@@ -1,6 +1,6 @@
 ---
 name: fermi-estimate
-description: Use before stating a quantity you have not measured — lines of code, files touched, tokens, cost in USD, hours, runtime, capacity, counts — when a human would base a decision on it, such as but not limited to plan or ticket sizing, the cost or duration of a run, a go/no-go, a choice between approaches, or a status report that carries an estimate. Independent of whether it was asked for or volunteered. Fires on "how many", "how much", "how long", "how big", "estimate", "ballpark", "order of magnitude", "is this small", "what will this cost", "is it worth it", German "wie lange/viel/groß", "Aufwand", "Schätzung", "Größenordnung", and whenever you would write "~", "about" or "roughly" in front of such a number. Produces a 95% range with its anchors. Not for a number one read returns (a diff's line count, a bill's total) — read that instead.
+description: Use before stating a quantity you have not measured, for those a human would base a decision on such as but not limited to lines of code, files touched, tokens, cost in USD, hours, runtime, capacity, counts. Independent on if it was volunteered or asked for. Fires on "how many", "how much", "how long", "how big", "estimate", "ballpark", "order of magnitude", "is this small", "what will this cost", "is it worth it", German "wie lange/viel/groß", "Aufwand", "Schätzung", "Größenordnung", and whenever you would write "~", "about" or "roughly" in front of such a number. Produces a 95% range with its anchors. Not for a number one read returns (a diff's line count, a bill's total) — read that instead.
 ---
 
 # Fermi estimation
@@ -77,7 +77,7 @@ Lead with the number, then the evidence, then stop.
 Moves it most: <the factor>, <whether reading it would be worth it>.
 ```
 
-When the estimate was volunteered rather than asked for, carry only the numbers (center and range) into the answer; the anchors may stay out for legibility. The work behind them is done either way.
+When you volunteered the estimate instead of being asked for, only use the numbers in your answer; you may not need to report the anchors for legibility reasons.
 
 One clause on what the estimate excludes if the work might get bundled. If the project keeps an anchors log, append the estimate to it in the same turn.
 
