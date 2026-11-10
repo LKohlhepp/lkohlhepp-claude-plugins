@@ -1,6 +1,6 @@
 ---
 name: fermi-estimate
-description: Estimate an engineering quantity you cannot yet measure — lines of code, tokens, cost, effort, runtime, capacity — as a calibrated range with its anchors shown. Use whenever asked "how many", "how much", "how long", "how big", "ballpark", "order of magnitude", "estimate", "is this small", "what will this cost", or when a plan or triage decision needs a size before the work exists. Also for classic Fermi questions. Do NOT use when the number already exists and one read returns it (a diff's line count, a bill's total) — that is a measurement, not an estimate; just read it.
+description: Use before stating a quantity you have not measured — lines of code, files touched, tokens, cost in USD, hours, runtime, capacity, counts — when a human would base a decision on it, such as but not limited to plan or ticket sizing, the cost or duration of a run, a go/no-go, a choice between approaches, or a status report that carries an estimate. Independent of whether it was asked for or volunteered. Fires on "how many", "how much", "how long", "how big", "estimate", "ballpark", "order of magnitude", "is this small", "what will this cost", "is it worth it", German "wie lange/viel/groß", "Aufwand", "Schätzung", "Größenordnung", and whenever you would write "~", "about" or "roughly" in front of such a number. Produces a 95% range with its anchors. Not for a number one read returns (a diff's line count, a bill's total) — read that instead.
 ---
 
 # Fermi estimation
@@ -76,6 +76,8 @@ Lead with the number, then the evidence, then stop.
 
 Moves it most: <the factor>, <whether reading it would be worth it>.
 ```
+
+When the estimate was volunteered rather than asked for, carry only the numbers (center and range) into the answer; the anchors may stay out for legibility. The work behind them is done either way.
 
 One clause on what the estimate excludes if the work might get bundled. If the project keeps an anchors log, append the estimate to it in the same turn.
 
