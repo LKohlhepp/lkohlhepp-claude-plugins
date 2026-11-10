@@ -1,0 +1,6 @@
+{
+  "name": "impl-skills",
+  "version": "0.1.0",
+  "description": "Plan-to-code workflow: impl-plan turns a ratified concept into a commit-structured plan, implement executes it with reviewed commits, impl-debrief checks the result against the plan.",
+  "author": { "name": "Luca Kohlhepp" }
+}

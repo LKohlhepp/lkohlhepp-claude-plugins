@@ -1,0 +1,6 @@
+{
+  "name": "reasoning-skills",
+  "version": "0.1.0",
+  "description": "Reasoning primitives: debate (adversarial, source-verified verdict on a contested question), distill (boil code or research down to what a developer needs), fermi-estimate (calibrated ranges for sizes, costs and effort).",
+  "author": { "name": "Luca Kohlhepp" }
+}
